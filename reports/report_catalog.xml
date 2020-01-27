@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+	<report 
+		id="custom_report_purchase"
+		string="Reporte personalizado" 
+		model="purchase.order" 
+		report_type="qweb-pdf" 
+		name="report_generate.report_custom_template"
+		file="report_generate.report_custom_template"
+		/>
+
+	<report 
+		id="custom_report_sale"
+		string="Reporte personalizado" 
+		model="sale.order" 
+		report_type="qweb-pdf" 
+		name="report_generate.report_custom_template"
+		file="report_generate.report_custom_template"
+		/>
+
+	</data>
+</odoo>
